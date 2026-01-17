@@ -7,7 +7,7 @@
 ### Automatic Installation
 ```bash
 cd your-bruno-project
-curl -fsSL https://raw.githubusercontent.com/bruno-collections/bruno-ai-assistant-prompts/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/bruno-collections/ai-assistant-prompts/main/install.sh | bash
 ```
 
 ### Manual Installation
@@ -22,7 +22,7 @@ mkdir -p .continue
 
 3. Download the Bruno configuration:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/bruno-collections/bruno-ai-assistant-prompts/main/prompts/continue/.continue/config.json -o .continue/config.json
+curl -fsSL https://raw.githubusercontent.com/bruno-collections/ai-assistant-prompts/main/prompts/continue/.continue/config.json -o .continue/config.json
 ```
 
 4. Update the config with your API keys (see Configuration section)

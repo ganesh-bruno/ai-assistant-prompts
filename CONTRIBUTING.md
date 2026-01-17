@@ -16,8 +16,8 @@ Thank you for your interest in contributing to the Bruno AI Assistant Prompts re
 
 ### 1. Fork and Clone
 ```bash
-git clone https://github.com/YOUR_USERNAME/bruno-ai-assistant-prompts.git
-cd bruno-ai-assistant-prompts
+git clone https://github.com/YOUR_USERNAME/ai-assistant-prompts.git
+cd ai-assistant-prompts
 ```
 
 ### 2. Create a Branch
@@ -33,7 +33,7 @@ Follow the existing structure and patterns in the repository.
 ## 📁 Repository Structure
 
 ```
-bruno-ai-assistant-prompts/
+ai-assistant-prompts/
 ├── prompts/                    # AI assistant prompt files
 │   ├── cursor/                 # Cursor AI (.cursorrules)
 │   ├── copilot/               # GitHub Copilot

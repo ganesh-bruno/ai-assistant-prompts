@@ -6,7 +6,7 @@ This guide covers using the Bruno AI context with general AI assistants like Cla
 
 ### Download Context File
 ```bash
-curl -fsSL https://raw.githubusercontent.com/bruno-collections/bruno-ai-assistant-prompts/main/prompts/general/bruno-ai-context.md -o bruno-ai-context.md
+curl -fsSL https://raw.githubusercontent.com/bruno-collections/ai-assistant-prompts/main/prompts/general/bruno-ai-context.md -o bruno-ai-context.md
 ```
 
 ### Usage

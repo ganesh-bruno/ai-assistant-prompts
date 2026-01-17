@@ -13,7 +13,7 @@ This repository provides comprehensive prompt files and configurations to help A
 ### One-Command Setup
 ```bash
 # Copy all prompts to your Bruno project
-curl -fsSL https://raw.githubusercontent.com/bruno-collections/bruno-ai-assistant-prompts/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/bruno-collections/ai-assistant-prompts/main/install.sh | bash
 ```
 
 ### Manual Installation
@@ -35,7 +35,7 @@ curl -fsSL https://raw.githubusercontent.com/bruno-collections/bruno-ai-assistan
 ## 📁 Repository Structure
 
 ```
-bruno-ai-assistant-prompts/
+ai-assistant-prompts/
 ├── prompts/                    # AI assistant prompt files
 │   ├── cursor/                 # Cursor AI (.cursorrules)
 │   ├── copilot/               # GitHub Copilot
@@ -129,7 +129,7 @@ vars:secret [
 ### Method 1: Automated Script
 ```bash
 cd your-bruno-project
-curl -fsSL https://raw.githubusercontent.com/bruno-collections/bruno-ai-assistant-prompts/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/bruno-collections/ai-assistant-prompts/main/install.sh | bash
 ```
 
 ### Method 2: Manual Copy
@@ -139,7 +139,7 @@ curl -fsSL https://raw.githubusercontent.com/bruno-collections/bruno-ai-assistan
 
 ### Method 3: Git Submodule
 ```bash
-git submodule add https://github.com/bruno-collections/bruno-ai-assistant-prompts.git .bruno-ai
+git submodule add https://github.com/bruno-collections/ai-assistant-prompts.git .bruno-ai
 ln -s .bruno-ai/prompts/cursor/.cursorrules .cursorrules
 ```
 

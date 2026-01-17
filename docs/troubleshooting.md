@@ -46,7 +46,7 @@ ls -la .cursorrules .github/copilot-instructions.md .vscode/ai-instructions.md .
 ls -la .cursorrules
 
 # Re-download if missing
-curl -fsSL https://raw.githubusercontent.com/bruno-collections/bruno-ai-assistant-prompts/main/prompts/cursor/.cursorrules -o .cursorrules
+curl -fsSL https://raw.githubusercontent.com/bruno-collections/ai-assistant-prompts/main/prompts/cursor/.cursorrules -o .cursorrules
 ```
 
 #### GitHub Copilot-Specific
@@ -56,7 +56,7 @@ ls -la .github/copilot-instructions.md
 
 # Re-download if missing
 mkdir -p .github
-curl -fsSL https://raw.githubusercontent.com/bruno-collections/bruno-ai-assistant-prompts/main/prompts/copilot/.github/copilot-instructions.md -o .github/copilot-instructions.md
+curl -fsSL https://raw.githubusercontent.com/bruno-collections/ai-assistant-prompts/main/prompts/copilot/.github/copilot-instructions.md -o .github/copilot-instructions.md
 ```
 
 #### VS Code Extensions-Specific
@@ -66,7 +66,7 @@ ls -la .vscode/ai-instructions.md
 
 # Re-download if missing
 mkdir -p .vscode
-curl -fsSL https://raw.githubusercontent.com/bruno-collections/bruno-ai-assistant-prompts/main/prompts/vscode/.vscode/ai-instructions.md -o .vscode/ai-instructions.md
+curl -fsSL https://raw.githubusercontent.com/bruno-collections/ai-assistant-prompts/main/prompts/vscode/.vscode/ai-instructions.md -o .vscode/ai-instructions.md
 ```
 
 ### 2. AI Suggestions Are Generic
@@ -82,7 +82,7 @@ curl -fsSL https://raw.githubusercontent.com/bruno-collections/bruno-ai-assistan
 1. **Update prompt files** to the latest version:
 ```bash
 cd your-bruno-project
-curl -fsSL https://raw.githubusercontent.com/bruno-collections/bruno-ai-assistant-prompts/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/bruno-collections/ai-assistant-prompts/main/install.sh | bash
 ```
 
 2. **Use more specific prompts**:
@@ -283,7 +283,7 @@ meta {
 ```bash
 # Update to the latest prompt files
 cd your-bruno-project
-curl -fsSL https://raw.githubusercontent.com/bruno-collections/bruno-ai-assistant-prompts/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/bruno-collections/ai-assistant-prompts/main/install.sh | bash
 ```
 
 ### Verify File Contents
@@ -299,7 +299,7 @@ wc -l .cursorrules .github/copilot-instructions.md .vscode/ai-instructions.md 2>
 
 ### Report Issues
 If you find bugs in the prompt files:
-1. Open an issue at [bruno-ai-assistant-prompts](https://github.com/bruno-collections/bruno-ai-assistant-prompts/issues)
+1. Open an issue at [bruno-ai-assistant-prompts](https://github.com/bruno-collections/ai-assistant-prompts/issues)
 2. Include your AI assistant name and version
 3. Provide example prompts and unexpected outputs
 4. Share your prompt file location and contents (if possible)

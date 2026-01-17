@@ -7,7 +7,7 @@ VS Code AI extensions (like Cline, Roo Code, Aider, and others) can automaticall
 ### Automatic Installation
 ```bash
 cd your-bruno-project
-curl -fsSL https://raw.githubusercontent.com/bruno-collections/bruno-ai-assistant-prompts/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/bruno-collections/ai-assistant-prompts/main/install.sh | bash
 ```
 
 ### Manual Installation
@@ -18,7 +18,7 @@ mkdir -p .vscode
 
 2. Download the AI instructions:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/bruno-collections/bruno-ai-assistant-prompts/main/prompts/vscode/.vscode/ai-instructions.md -o .vscode/ai-instructions.md
+curl -fsSL https://raw.githubusercontent.com/bruno-collections/ai-assistant-prompts/main/prompts/vscode/.vscode/ai-instructions.md -o .vscode/ai-instructions.md
 ```
 
 3. Restart VS Code to load the new instructions

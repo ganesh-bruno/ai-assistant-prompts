@@ -7,13 +7,13 @@
 ### Automatic Installation
 ```bash
 cd your-bruno-project
-curl -fsSL https://raw.githubusercontent.com/bruno-collections/bruno-ai-assistant-prompts/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/bruno-collections/ai-assistant-prompts/main/install.sh | bash
 ```
 
 ### Manual Installation
 1. Copy the `.cursorrules` file to your Bruno project root:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/bruno-collections/bruno-ai-assistant-prompts/main/prompts/cursor/.cursorrules -o .cursorrules
+curl -fsSL https://raw.githubusercontent.com/bruno-collections/ai-assistant-prompts/main/prompts/cursor/.cursorrules -o .cursorrules
 ```
 
 2. Restart Cursor to load the new rules

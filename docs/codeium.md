@@ -7,7 +7,7 @@
 ### Automatic Installation
 ```bash
 cd your-bruno-project
-curl -fsSL https://raw.githubusercontent.com/bruno-collections/bruno-ai-assistant-prompts/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/bruno-collections/ai-assistant-prompts/main/install.sh | bash
 ```
 
 ### Manual Installation
@@ -23,7 +23,7 @@ mkdir -p .codeium
 
 3. Download the Bruno context:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/bruno-collections/bruno-ai-assistant-prompts/main/prompts/codeium/.codeium/context.md -o .codeium/context.md
+curl -fsSL https://raw.githubusercontent.com/bruno-collections/ai-assistant-prompts/main/prompts/codeium/.codeium/context.md -o .codeium/context.md
 ```
 
 4. Restart your editor to load the context
