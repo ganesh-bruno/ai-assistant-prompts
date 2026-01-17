@@ -158,6 +158,8 @@ We welcome contributions! See [CONTRIBUTING.md](./CONTRIBUTING.md) for guideline
 - [Cursor AI Setup](./docs/cursor.md)
 - [GitHub Copilot Setup](./docs/copilot.md)
 - [VS Code Extensions Setup](./docs/vscode.md)
+- [Continue Extension Setup](./docs/continue.md)
+- [Codeium Setup](./docs/codeium.md)
 - [General AI Assistants](./docs/general.md)
 - [Troubleshooting Guide](./docs/troubleshooting.md)
 
